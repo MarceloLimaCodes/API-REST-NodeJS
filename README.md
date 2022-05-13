@@ -1,5 +1,5 @@
 # API-REST-NodeJS
-Uma API REST usando NodeJS e Express fazendo conexão com MongoDB.
+API REST que utiliza NodeJS e Express com conexão em MongoDB.
 
 Autenticação:
 Contém registro utilizando criptografia Bcrypt, autenticação com Token JWT e rotas de recuperação de senha através de um token enviado por email com tempo de validade de 1 dia (Nodemailer). Os tokens JWT criados tanto na autenticação quanto no registro contém uma validação através de middleware com expiração de 1 dia. É gerado sempre um novo token quando autenticado e registrado.
